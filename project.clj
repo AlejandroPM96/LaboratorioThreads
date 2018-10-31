@@ -6,5 +6,4 @@
   :dependencies [[org.clojure/clojure "1.9.0"]]
   :main ^:skip-aot hilos.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}}
-  )
+  :profiles {:uberjar {:aot :all}})
