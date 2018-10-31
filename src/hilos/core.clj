@@ -1,18 +1,12 @@
+;;Luis Alejandro Peña Montoya A01650535
+;;Ana Karen Campos Garcia     A01335037
+
 (ns hilos.core)
 
 (defn -main
 
   [& args]
 
-  ; (defn factorial [n]
-  ;   (apply * (map bigint (range 1 (inc n))))
-  ; )
-  ; (def result (future (Thread/sleep 3000) (factorial 100)))
-  ; (let [result (future (Thread/sleep 3000) (+ 1 1))]
-  ;   (println "Resultado: " @result)
-  ;   (println "3 segundos antes")
-  ; )
-  ; (println (deref result))
 
   (defn deficiente [n]
     (println "Ejercicio 1")
